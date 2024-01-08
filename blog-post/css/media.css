@@ -1,0 +1,83 @@
+/* media queries */
+
+/* -------------- */
+
+/* breakpoints */
+
+/* Descktop 1400 */
+/* Tablet 1399 = 900 */
+/* Mobile 899=600 */
+/* MobileXS 599 = 320 */
+
+
+/* Tablet */
+
+@media (max-width: 1399px){
+    .container{
+        max-width: 900px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 899px){
+    .container{
+        max-width: 600px;
+    }
+
+    .title{
+        font-size: 32px;
+    }
+
+    .subtitle{
+        font-size: 12px;
+    }
+
+    .section-cards{
+        margin-top: 40px;
+        row-gap: 40px;
+    }
+
+    .section-button {
+        margin-top: 40px;
+    }
+
+    .button{
+        padding: 13px 25px;
+        font-size: 18px;
+    }
+}
+
+/* MobileXS */
+
+@media (max-width: 599px){
+    .container{
+        max-width: 320px;
+        flex-direction: column;
+    }
+
+    .section-cards{
+        justify-content: center;
+    }
+
+    .section-cards{
+        row-gap: 20px;
+    }
+
+    .card-title{
+        font-size: 18px;
+        margin-bottom: 7px;
+    }
+
+    .card-description {
+        margin-bottom: 11px;
+    }
+
+    .card-link{
+        font-size: 18px;
+    }
+
+    .section-button {
+        margin-top: 40px;
+    }
+}

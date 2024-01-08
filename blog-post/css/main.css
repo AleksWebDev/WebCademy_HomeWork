@@ -1,0 +1,124 @@
+@import "./reset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
+
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+
+body{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+
+/* blog section */
+.section {
+    padding: 90px 0px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.section-header {
+    text-align: center;
+}
+
+/* title/subtitle */
+
+.title {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+
+/* cards */
+
+.section-cards {
+    margin-top: 60px;
+
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 60px;
+}
+
+.card{
+    width: 270px;
+}
+
+.card-body{
+    padding: 20px 10px;
+
+    border-top: none;
+    border: 1px solid #C1D1D4;
+    text-align: center;
+}
+
+.card-title{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.card-description{
+    margin-bottom: 17px;
+}
+
+.card-description, p{
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'Montserrat';
+}
+
+.card-link{
+    display: inline-block;
+    color: #0277B9;
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+
+/* button */
+
+.section-button {
+    text-align: center;
+
+    margin-top: 50px;
+}
+
+.button{
+
+    display: inline-block;
+
+    padding: 15px 47px 16px;
+
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    border-radius: 4px;
+    border: 1px solid #000;
+    transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
+}
+
+.button:hover, .button:focus{
+    background-color: #000;
+    color: #fff;
+}
+
+
+.button:active{
+    position: relative;
+    top: 1px;
+    border: 1px solid #444;
+    background-color: #444;
+}
